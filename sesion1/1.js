@@ -73,11 +73,17 @@ switch (dia) {
      case "miercoles":
         console.log("hoy es miercoles");
         break;
+}let edad1 = 18;
+let tarjetacredito;
+
+if (edad1 >= 18) {
+    tarjetacredito = "puede sacar tarjeta de credito";
+} else {
+    tarjetacredito = "no puede sacar tarjeta de credito";
 }
-let edad1 = 18;
-if (edad1 >= 18) 
-    let tarjetacredito = 18 ? "puede sacar tarjeta de credito" : "no puede sacar tarjeta de credito";
+
 console.log(tarjetacredito);
+
 let mensaje ;
 if (edad>= 18) {
 mensaje = "eress mayor de eadad "
@@ -85,3 +91,12 @@ mensaje = "eress mayor de eadad "
     mensaje = "eres menor de edad"
 }
 console.log(mensaje);
+let nota = 75;
+if(nota >= 75){
+    console.log("aprobado")
+}
+else if(nota >= 60){
+    console.log("regular")
+} else {
+    console.log("reprobado")
+}
