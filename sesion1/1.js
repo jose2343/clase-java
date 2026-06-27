@@ -99,4 +99,4 @@ else if(nota >= 60){
     console.log("regular")
 } else {
     console.log("reprobado")
-}
+}q

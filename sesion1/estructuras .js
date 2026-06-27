@@ -32,3 +32,27 @@ console.log(calcularArea(5, 10));
 //funciones arrow
 let sumar = (valor1, valor2) => valor1 + valor2;
 console.log(sumar(5, 10));
+//parametros
+function crearProducto(nombre, precio, stock =5) {
+    return {
+        nombre: silla,
+        precio: 50.000,
+        stock: 5,
+    }
+    console.log(crearProducto('silla', 50.000))}
+    //alcance de una variable//
+    const appNombre ="mi aplicacion"; //variable global//
+    function pagoAlquiler() {
+        let total = 5000; //variable local//
+        console.log(`el total a pagar es ${total}`);
+    }
+    //callback  una funcion que se pasa como argumento a otra funcion//
+    function procesaroperacion(a , b , operacion ) {
+        let resultado = operacion(a, b);
+        return 'resultado:' + resultado;
+    }
+    let multiplicar = (a, b) => a * b;
+    let restar = (a, b) => a - b;
+    console.log(procesaroperacion(5, 10, multiplicar));
+    console.log(procesaroperacion(5, 10, restar));
+    
